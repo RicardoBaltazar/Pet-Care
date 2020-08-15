@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #fef7ed;
+    padding: 40px 100px;
+}
+
+header a {
+    color: #3a54b4;
+
+    text-decoration: none;
+}
+
+.logotipo a {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.image-logotipo {
+    color: #3a54b4;
+    font-size: 26px;
+}
+
+.link-home {
+    color: #cf978a;
+}
+
+nav a {
+    margin-left: 30px;
+}

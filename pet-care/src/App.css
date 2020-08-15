@@ -6,6 +6,12 @@
 
 body {
   /*#fef7ed*/
+  /*Azul #3a54b4*/
   background-color: #f9f9f9;
   font-family: 'roboto', sans-serif;
+}
+
+.App {
+  width: 100%;
+  margin: 0 auto;
 }
