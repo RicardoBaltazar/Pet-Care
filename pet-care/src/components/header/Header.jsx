@@ -11,11 +11,10 @@ export default function Menu() {
                 <a href="">Pet Care</a>
             </div>
             <nav>
-                <a className='link-home' href="">Página Inicial</a>
-                <a href="">Sobre</a>
-                <a href="">Serviços</a>
-                <a href="">Blog</a>
-                <a href="">Contato</a>
+                <a className='link-home' href="/">Página Inicial</a>
+                <a href="/">Sobre</a>
+                <a href="/">Serviços</a>
+                <a href="/">Contato</a>
             </nav>
         </header>
     )

@@ -3,12 +3,16 @@ header {
     justify-content: space-between;
     align-items: baseline;
     background-color: #fef7ed;
-    padding: 40px 100px;
+    padding: 30px 100px;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 header a {
     color: #3a54b4;
-
     text-decoration: none;
 }
 
@@ -22,10 +26,12 @@ header a {
     font-size: 26px;
 }
 
-.link-home {
-    color: #cf978a;
-}
-
 nav a {
     margin-left: 30px;
+    font-size: 16px;
 }
+
+nav a:hover {
+    color: #ffc0cb;
+}
+
