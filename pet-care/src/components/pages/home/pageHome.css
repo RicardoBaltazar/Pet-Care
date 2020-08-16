@@ -48,7 +48,7 @@
     align-items: center;
     color: #3a54b4;
     margin-top: 3rem;
-    padding: 0 6rem 0 6rem;
+    padding: 0 6rem 0 10rem;
 }
 
 .img-about {
@@ -78,6 +78,7 @@
     font-size: 16px;
     margin: 25px 0 25px 0;
     letter-spacing: .2rem;
+    line-height: 1.4rem;
     font-weight: 300;
 }
 
