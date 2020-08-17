@@ -3,7 +3,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     background-color: #fef7ed;
-    padding: 30px 100px;
+    padding: 20px 100px;
 
     position: fixed;
     left: 0;
@@ -33,4 +33,10 @@ nav a {
 
 nav a:hover {
     color: #ffc0cb;
+}
+
+@media(max-width: 769px){
+    header{
+        padding: 30px 30px;          
+    }
 }
