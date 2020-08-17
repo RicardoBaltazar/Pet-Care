@@ -10,10 +10,7 @@
     align-items: center;
     margin-top: -40px;
     color: #3a54b4;
-
 }
-
-
 
 .title {
     max-width: 450px;
@@ -82,3 +79,13 @@
     font-weight: 300;
 }
 
+@media(max-width:769px){
+    .home-title {
+        flex-direction: column;
+        max-width: 100vw;
+    }
+
+    .img-title img{
+        width: 375px;
+    }
+}
