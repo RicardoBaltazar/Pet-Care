@@ -5,3 +5,15 @@
     text-align: center;
     max-width: 250px;
 }
+
+.services h3 {
+    font-size: 26px;
+    margin: 10px;
+}
+
+.services p {
+    letter-spacing: .2rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+    margin: 5px 0px 20px 0px;
+}
