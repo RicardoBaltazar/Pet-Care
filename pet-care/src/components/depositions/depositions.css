@@ -1,0 +1,20 @@
+.deposition {
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #3a54b4;
+    margin: 35px;
+}
+
+.deposition h3 {
+    font-size: 29px;
+    margin-bottom: 25px;
+}
+
+.deposition p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}

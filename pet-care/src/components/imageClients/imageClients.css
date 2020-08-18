@@ -18,10 +18,7 @@
 .grid-imagens-clients {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 22px;
+    gap: 24px;
+    transition: 500ms;
 }
 
-.grid-imagens-clients img:hover {
-    opacity: 60%; 
-    color: #3a54b4;
-}

@@ -1,0 +1,19 @@
+.deposition-clients {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.deposition-clients h3 {
+    font-size: 50px;
+    color: #3a54b4;
+    margin: 15px 0;
+}
+
+.deposition-clients div {
+    display: flex;
+    justify-content: space-around;
+}

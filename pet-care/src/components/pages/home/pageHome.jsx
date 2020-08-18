@@ -4,6 +4,7 @@ import './pageHome.css'
 import Button from '../../button/Button'
 import Services from '../../services/Services'
 import ImageClients from '../../imageClients/index'
+import DepositionsClients from '../../depositionsClients/index'
 
 const imgTitle = require('../../../assets/img-title.png')
 const imgAbout = require('../../../assets/img-vet.png')
@@ -77,6 +78,7 @@ export default function PageHome() {
                 </div>
 
                 <ImageClients />
+                <DepositionsClients />
             </main>
         </>
     )
