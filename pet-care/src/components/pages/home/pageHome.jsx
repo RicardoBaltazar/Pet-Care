@@ -5,6 +5,7 @@ import Button from '../../button/Button'
 import Services from '../../services/Services'
 import ImageClients from '../../imageClients/index'
 import DepositionsClients from '../../depositionsClients/index'
+import Form from '../../form/Form'
 
 const imgTitle = require('../../../assets/img-title.png')
 const imgAbout = require('../../../assets/img-vet.png')
@@ -79,6 +80,7 @@ export default function PageHome() {
 
                 <ImageClients />
                 <DepositionsClients />
+                <Form />
             </main>
         </>
     )

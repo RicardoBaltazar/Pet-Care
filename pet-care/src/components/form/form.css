@@ -1,0 +1,78 @@
+form {
+    height: 90vh;
+    background-color: #3a54b4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form h3 {
+    font-size: 55px;
+    margin: 10px;
+    color: #fff;
+}
+
+.contact {
+    display: flex;
+    margin: 15px;
+    color: #fff;
+}
+
+.contact div {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact div p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.input-name{
+    width: 50%;
+    margin-top: 5px;
+}
+
+input{
+    width: 50%;
+    background-color: #3a54b4;
+    color: #fff;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    margin: 10px 0;
+    outline: 0;
+}
+
+input:hover{
+    border-color: blue;
+    transition: 300ms;
+}
+
+.input-message {
+    width: 50%;
+    background-color: #3a54b4;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    padding: 50px 0;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 14px;
+    padding: 25px;
+}
+
+form button {
+    color: #fff;
+    width: 50%%;
+}
+
+form button:hover {
+background-color: rgb(206, 201, 201);
+}
+
