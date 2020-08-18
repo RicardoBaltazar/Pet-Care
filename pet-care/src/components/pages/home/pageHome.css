@@ -46,6 +46,7 @@
     color: #3a54b4;
     margin-top: 3rem;
     padding: 0 6rem 0 10rem;
+    height: 100vh;
 }
 
 .img-about {
@@ -77,6 +78,18 @@
     letter-spacing: .2rem;
     line-height: 1.4rem;
     font-weight: 300;
+}
+
+.home-services {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-services{
+    display: flex;
+    justify-content: space-around;
 }
 
 @media(max-width:769px){

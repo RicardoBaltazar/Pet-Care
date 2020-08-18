@@ -2,8 +2,11 @@ import React from 'react'
 import './pageHome.css'
 
 import Button from '../../button/Button'
+import Services from '../../services/Services'
+
 const imgTitle = require('../../../assets/img-title.png')
 const imgAbout = require('../../../assets/img-vet.png')
+const imgServiceBrushing = require('../../../assets/escovacao.png')
 
 
 export default function PageHome() {
@@ -27,14 +30,49 @@ export default function PageHome() {
                     </div>
                     <div className='title-about'>
                         <h2>Sobre mim</h2>
-                        <p>Sou um parágrafo. Clique aqui para editar e 
-                            adicionar o seu próprio texto. É fácil! 
-                            Basta clicar em "Editar Texto" ou clicar 
-                            duas vezes sobre mim e você poderá adicionar 
-                            o seu próprio conteúdo e trocar fontes. 
+                        <p>Sou um parágrafo. Clique aqui para editar e
+                        adicionar o seu próprio texto. É fácil!
+                        Basta clicar em "Editar Texto" ou clicar
+                        duas vezes sobre mim e você poderá adicionar
+                        o seu próprio conteúdo e trocar fontes.
                             Sou um ótimo lugar para você contar sua história</p>
                         <Button>LEIA MAIS</Button>
                     </div>
+                </div>
+
+                <div className='home-services'>
+                    <h2>Serviços</h2>
+
+                    <div className='cards-services'>
+                        <div className='card-services'>
+                            <Services imageService={imgServiceBrushing} nameOfService='Escovação'
+                                descriptionOfService='Sou um parágrafo. Use esta área para descrever 
+                    um de seus serviços. Você pode trocar o título para o serviço que você 
+                    presta e descrevê-lo. Sinta-se à vontade para mudar a imagem.'
+                            />
+                            <Button>RESERVE JÁ</Button>
+                        </div>
+
+                        <div className='card-services'>
+                            <Services imageService={imgServiceBrushing} nameOfService='Escovação'
+                                descriptionOfService='Sou um parágrafo. Use esta área para descrever 
+                    um de seus serviços. Você pode trocar o título para o serviço que você 
+                    presta e descrevê-lo. Sinta-se à vontade para mudar a imagem.'
+                            />
+                            <Button>RESERVE JÁ</Button>
+                        </div>
+
+                        <div className='card-services'>
+                            <Services imageService={imgServiceBrushing} nameOfService='Escovação'
+                                descriptionOfService='Sou um parágrafo. Use esta área para descrever 
+                    um de seus serviços. Você pode trocar o título para o serviço que você 
+                    presta e descrevê-lo. Sinta-se à vontade para mudar a imagem.'
+                            />
+                            <Button>RESERVE JÁ</Button>
+                        </div>  z
+                    </div>
+
+
                 </div>
             </main>
         </>
