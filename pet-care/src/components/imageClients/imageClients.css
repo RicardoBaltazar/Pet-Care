@@ -1,0 +1,27 @@
+.image-clients {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-clients h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 7rem;
+    margin-top: 75px;
+    margin-bottom: 0;
+    color: #3a54b4;
+}
+
+.grid-imagens-clients {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 22px;
+}
+
+.grid-imagens-clients img:hover {
+    opacity: 60%; 
+    color: #3a54b4;
+}

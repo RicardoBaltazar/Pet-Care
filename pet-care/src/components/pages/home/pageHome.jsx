@@ -3,6 +3,7 @@ import './pageHome.css'
 
 import Button from '../../button/Button'
 import Services from '../../services/Services'
+import ImageClients from '../../imageClients/index'
 
 const imgTitle = require('../../../assets/img-title.png')
 const imgAbout = require('../../../assets/img-vet.png')
@@ -73,9 +74,9 @@ export default function PageHome() {
                             <Button>RESERVE JÁ</Button>
                         </div>  
                     </div>
-
-
                 </div>
+
+                <ImageClients />
             </main>
         </>
     )
