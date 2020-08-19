@@ -41,6 +41,7 @@
         text-align: center;
         flex-direction: column;
         align-items: center;
+        height: 135vh;
     }
     
     .title {
@@ -48,6 +49,7 @@
         margin-top: 150px;
         font-size: 25px;
         align-items: center;
+        max-width: 75%;
     }
 
     .title .title-h1{
@@ -62,11 +64,7 @@
     }
 
     .img-title img{
-        margin: 3rem 0 -7rem 0;
+        margin: 4rem 0 -7rem 0;
         width: 250px;
-    }
-
-    button {
-        
     }
 }
