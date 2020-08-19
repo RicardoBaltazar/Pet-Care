@@ -11,3 +11,10 @@ button:hover {
     opacity: 70%;
     transition: 500ms;
 }
+
+@media(max-width: 426px) {
+    button {
+
+        width: 75%;
+    }
+}

@@ -1,10 +1,7 @@
 .home-title{
     background-color: #fef7ed;
     height: 125vh;
-    margin-top: 275px;
-}
-
-.home-title {
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,4 +34,39 @@
 
 .img-title img{
     margin-right: -45px;
+}
+
+@media(max-width: 426px) {
+    .home-title{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .title {
+        margin-right: 0;
+        margin-top: 150px;
+        font-size: 25px;
+        align-items: center;
+    }
+
+    .title .title-h1{
+        font-size: 7rem;
+        font-weight: bold;
+        line-height: 7rem;
+        margin-top: -40px;
+    }
+    
+    .img-title{
+        order: -1
+    }
+
+    .img-title img{
+        margin: 3rem 0 -7rem 0;
+        width: 250px;
+    }
+
+    button {
+        
+    }
 }

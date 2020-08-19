@@ -37,6 +37,7 @@ nav a:hover {
 
 @media(max-width: 769px){
     header{
-        padding: 30px 30px;          
+        padding: 30px 30px;  
+        position: initial;        
     }
 }
