@@ -2,13 +2,13 @@ import React from 'react'
 import './pageHome.css'
 
 import HomeTitle from '../../homeTitle/index'
+import HomeAbout from '../../homeAbout/index'
 import Button from '../../button/Button'
 import Services from '../../services/Services'
 import ImageClients from '../../imageClients/index'
 import DepositionsClients from '../../depositionsClients/index'
 import Form from '../../form/Form'
 
-const imgAbout = require('../../../assets/img-vet.png')
 const imgServiceBrushing = require('../../../assets/escovacao.png')
 const imgServiceCheckup = require('../../../assets/checkup.png')
 const imgServiceDental = require('../../../assets/dental.png')
@@ -19,22 +19,9 @@ export default function PageHome() {
         <>
             <main>
                 <HomeTitle  />
+                <HomeAbout />
 
-                <div className='home-about'>
-                    <div className='img-about'>
-                        <img src={imgAbout} alt="vet" />
-                    </div>
-                    <div className='title-about'>
-                        <h2>Sobre mim</h2>
-                        <p>Sou um parágrafo. Clique aqui para editar e
-                        adicionar o seu próprio texto. É fácil!
-                        Basta clicar em "Editar Texto" ou clicar
-                        duas vezes sobre mim e você poderá adicionar
-                        o seu próprio conteúdo e trocar fontes.
-                            Sou um ótimo lugar para você contar sua história</p>
-                        <Button>LEIA MAIS</Button>
-                    </div>
-                </div>
+
 
                 <div className='home-services'>
                     <h2>Serviços</h2>
