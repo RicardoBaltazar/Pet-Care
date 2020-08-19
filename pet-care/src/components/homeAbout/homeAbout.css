@@ -53,9 +53,9 @@
         margin-right: 0rem;
         width: 300px;
     }
-
-    .title-about {
-        max-width: 75%;
-        margin-left: 0rem;
+    
+    .title-about p{
+        max-width: 100%;
+        margin-left: -2rem;
     }
 }
