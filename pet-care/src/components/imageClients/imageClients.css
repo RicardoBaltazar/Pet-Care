@@ -42,3 +42,13 @@
     }
 }
 
+@media(max-width: 376px){
+    .grid-imagens-clients img{
+        width: 315px;
+    }
+
+    .image-clients h3 {
+        font-size: 2rem;
+    }
+}
+

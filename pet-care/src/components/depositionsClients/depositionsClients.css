@@ -17,3 +17,21 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media(max-width: 426px){
+    .deposition-clients {
+        margin-top: 70rem;
+        margin-bottom: 20rem;
+    }
+
+    .deposition-clients h3 {
+        font-size: 30px;
+    }
+
+    .deposition-clients div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+}

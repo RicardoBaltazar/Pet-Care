@@ -35,9 +35,10 @@ nav a:hover {
     color: #ffc0cb;
 }
 
-@media(max-width: 769px){
+@media(max-width: 426px){
     header{
         padding: 30px 30px;  
-        position: initial;        
+        /*position: fixed;*/  
+             
     }
 }
