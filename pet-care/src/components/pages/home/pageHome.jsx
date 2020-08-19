@@ -1,13 +1,13 @@
 import React from 'react'
 import './pageHome.css'
 
+import HomeTitle from '../../homeTitle/index'
 import Button from '../../button/Button'
 import Services from '../../services/Services'
 import ImageClients from '../../imageClients/index'
 import DepositionsClients from '../../depositionsClients/index'
 import Form from '../../form/Form'
 
-const imgTitle = require('../../../assets/img-title.png')
 const imgAbout = require('../../../assets/img-vet.png')
 const imgServiceBrushing = require('../../../assets/escovacao.png')
 const imgServiceCheckup = require('../../../assets/checkup.png')
@@ -18,16 +18,7 @@ export default function PageHome() {
     return (
         <>
             <main>
-                <div className='home-title'>
-                    <div className='title'>
-                        <h1 className='title-h1'>Pet Care</h1>
-                        <p>Veterinário em Domicílio</p>
-                        <Button>AGENDE UMA VISITA</Button>
-                    </div>
-                    <div className='img-title'>
-                        <img src={imgTitle} alt="Cachorrinho" />
-                    </div>
-                </div>
+                <HomeTitle  />
 
                 <div className='home-about'>
                     <div className='img-about'>
