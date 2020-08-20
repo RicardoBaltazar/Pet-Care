@@ -3,10 +3,35 @@ import './form.css'
 
 
 export default class Form extends Component {
+
+    constructor(props){
+        super(props) 
+        this.state = {
+            name: '',
+            email: '',
+            topic: '',
+            message: ''
+        }
+
+        this.handleSubmit = this.handleSubmit.bind(this)
+        this.handleName = this.handleName.bind(this)
+    }
+
+    handleName(event){
+        this.setState({
+            name: event.target.value
+        })
+    }
+
+    handleSubmit(event){
+        const name = this.state.name
+        alert('Ola Mundo! ' + name)
+    }
+
     render() {
         return (
             <>
-                <form action="">
+                <form action="" onSubmit={this.handleSubmit}>
 
                     <h3>Contato</h3>
                     <div className='contact'>
@@ -29,7 +54,7 @@ export default class Form extends Component {
                     </div>
 
                     <div className='input-name'>
-                        <input type="text" placeholder='Nome' />
+                        <input type="text" placeholder='Nome' value={this.state.name} onChange={this.handleName}/>
                         <input type="email" name="" id="" placeholder='Email' />
                     </div>
 

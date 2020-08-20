@@ -12,7 +12,12 @@ body {
 }
 
 .App {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
+@media(max-width: 426px){
+    .App {
+        width: 90%;
+    }
+}

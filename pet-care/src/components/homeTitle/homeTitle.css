@@ -7,7 +7,6 @@
     justify-content: center;
     align-items: center;
     color: #3a54b4;
-    padding: 21rem 0 28rem 0;
 }
 
 .title {
@@ -41,9 +40,8 @@
     .home-title{
         text-align: center;
         flex-direction: column;
-        height: 135vh;
-        
-        
+        height: 135vh;        
+        padding: 21rem 0 28rem 0;
     }
     
     .title {
