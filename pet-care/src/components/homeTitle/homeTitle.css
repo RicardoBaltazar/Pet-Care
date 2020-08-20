@@ -1,12 +1,13 @@
 .home-title{
     background-color: #fef7ed;
     height: 125vh;
-    width: 100vw;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -40px;
     color: #3a54b4;
+    padding: 21rem 0 28rem 0;
 }
 
 .title {
@@ -40,8 +41,9 @@
     .home-title{
         text-align: center;
         flex-direction: column;
-        align-items: center;
         height: 135vh;
+        
+        
     }
     
     .title {
@@ -64,7 +66,7 @@
     }
 
     .img-title img{
-        margin: 4rem 0 -7rem 0;
+        margin: 9rem 0 -7rem 0;
         width: 250px;
     }
 }
