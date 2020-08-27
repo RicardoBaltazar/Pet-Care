@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './form.css'
+import axios from 'axios'
 
+const url = 'http://localhost:8000/message-contact'
 
 export default class Form extends Component {
 
@@ -15,6 +17,9 @@ export default class Form extends Component {
 
         this.handleSubmit = this.handleSubmit.bind(this)
         this.handleName = this.handleName.bind(this)
+        this.handleEmail = this.handleEmail.bind(this)
+        this.handleTopic = this.handleTopic.bind(this)
+        this.handleMessage = this.handleMessage.bind(this)
     }
 
     handleName(event){
@@ -23,9 +28,47 @@ export default class Form extends Component {
         })
     }
 
+    handleEmail(event){
+        this.setState({
+            email: event.target.value
+        })
+    }
+
+    handleTopic(event){
+        this.setState({
+            topic: event.target.value
+        })
+    }
+
+    handleMessage(event){
+        this.setState({
+            message: event.target.value
+        })
+    }
+
     handleSubmit(event){
         const name = this.state.name
-        alert('Ola Mundo! ' + name)
+        const email = this.state.email
+        const topic = this.state.topic
+        const message = this.state.message
+
+        axios.post(url, {
+            Name: name,
+            email: email,
+            topic: topic,
+            message: message
+        })
+        .then(function (response) {
+            console.log(response);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+
+        event.preventDefault();
+        alert('Post Realizado!')
+
+
     }
 
     render() {
@@ -55,11 +98,12 @@ export default class Form extends Component {
 
                     <div className='input-name'>
                         <input type="text" placeholder='Nome' value={this.state.name} onChange={this.handleName}/>
-                        <input type="email" name="" id="" placeholder='Email' />
+                        <input type="email" name="" id="" placeholder='Email' value={this.state.email} onChange={this.handleEmail}/>
                     </div>
 
-                    <input type="text" placeholder='Assunto' />
-                    <input name="" id="" placeholder='Deixe sua mensagem aqui...' className='input-message'/>
+                    <input type="text" placeholder='Assunto' value={this.state.topic} onChange={this.handleTopic}/>
+                    <input name="" id="" placeholder='Deixe sua mensagem aqui...' className='input-message' 
+                    value={this.state.message} onChange={this.handleMessage}/>
                     <button type="submit">Enviar</button>
                 </form>
             </>
