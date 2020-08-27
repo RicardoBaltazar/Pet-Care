@@ -1,0 +1,44 @@
+.pageAbout {
+    height: 125vh;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #3a54b4;
+}
+
+h2 {
+    font-size: 3.8rem;
+    margin-top: 4rem;
+}
+
+.div-about-infos{
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+}
+
+
+
+.pageAbout div span {
+    font-weight: bold;
+    font-size: 22px;
+
+    width: 350px;
+}
+
+.pageAbout div p {
+    width: 350px;
+    margin: 10px;
+}
+
+.text-about{
+    width: 350px;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
