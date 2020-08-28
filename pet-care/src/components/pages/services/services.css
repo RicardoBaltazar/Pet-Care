@@ -1,0 +1,11 @@
+.page-services{
+    height: 125vh;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #3a54b4;
+}
+
