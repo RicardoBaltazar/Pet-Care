@@ -1,0 +1,25 @@
+.cards-page-services{
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards-page-services h3 {
+    margin: 15px auto;
+}
+
+.cards-page-services p {
+    margin: 10px auto;
+}
+
+.cards-page-services button {
+    width: 100%;
+    padding: auto;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    font-weight: bold;
+    font-size: 15px;
+}
