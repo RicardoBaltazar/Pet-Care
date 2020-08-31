@@ -16,6 +16,10 @@ body {
   margin: 0 auto;
 }
 
+a{
+  text-decoration: none;
+}
+
 @media(max-width: 426px){
     .App {
         width: 90%;

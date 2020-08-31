@@ -26,6 +26,11 @@
     align-items: center;
 }
 
+.card-services a{
+    width: 100%;
+    margin-left: 50%;
+}
+
 @media(max-width: 426px){
     .cards-services{
         flex-direction: column;   

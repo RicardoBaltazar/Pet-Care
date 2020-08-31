@@ -35,7 +35,7 @@ export default function PageServices() {
 
                 <CardsPageServices 
                 img={img3}
-                titleService="Consulta Comportamental"
+                titleService="Comportamental"
                 descriptionService="Use esta área para descrever o seu serviço."
                 time="1 h 30 min"
                 value='R$200'
