@@ -10,7 +10,6 @@ export default function CardsPageServices(props) {
             <p>{props.descriptionService}</p>
             <p>{props.time}</p>
             <p>{props.value}</p>
-            <Button >Agendar Já</Button>
         </div>
     )
 }

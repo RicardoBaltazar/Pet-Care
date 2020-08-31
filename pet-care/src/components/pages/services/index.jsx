@@ -1,6 +1,7 @@
 import React from 'react'
 import './services.css'
 import CardsPageServices from '../../cardsPageServices/index'
+import Button from '../../button/Button'
 
 const img1 = require('../../../assets/img-services1.png')
 const img2 = require('../../../assets/img-services2.png')
@@ -17,55 +18,73 @@ export default function PageServices() {
             </div>
 
             <section>
-                <CardsPageServices 
-                img={img1}
-                titleService="Escovação"
-                descriptionService="Use esta área para descrever o seu serviço."
-                time="35 min"
-                value='R$35'
-                />
+                <div className='div-cards-services'>
+                    <CardsPageServices
+                        img={img1}
+                        titleService="Escovação"
+                        descriptionService="Use esta área para descrever o seu serviço."
+                        time="35 min"
+                        value='R$35'
+                    />
+                    <a href=""><Button >Agendar Já</Button></a>
+                </div>
 
-                <CardsPageServices 
-                img={img2}
-                titleService="Vacinação"
-                descriptionService="Use esta área para descrever o seu serviço."
-                time="15 min"
-                value='R$60'
-                />
+                <div className='div-cards-services'>
+                    <CardsPageServices
+                        img={img2}
+                        titleService="Vacinação"
+                        descriptionService="Use esta área para descrever o seu serviço."
+                        time="15 min"
+                        value='R$60'
+                    />
+                    <a href=""><Button >Agendar Já</Button></a>
+                </div>
 
-                <CardsPageServices 
-                img={img3}
-                titleService="Comportamental"
-                descriptionService="Use esta área para descrever o seu serviço."
-                time="1 h 30 min"
-                value='R$200'
-                />
+                <div className='div-cards-services'>
+                    <CardsPageServices
+                        img={img3}
+                        titleService="Comportamental"
+                        descriptionService="Use esta área para descrever o seu serviço."
+                        time="1 h 30 min"
+                        value='R$200'
+                    />
+                    <a href=""><Button >Agendar Já</Button></a>
+                </div >
             </section>
 
             <section>
-            <CardsPageServices 
-                img={img4}
-                titleService="Checkup"
-                descriptionService="Use esta área para descrever o seu serviço."
-                time="30 min"
-                value='R$100'
-                />
-                
-                <CardsPageServices 
-                img={img5}
-                titleService="Terapia para Dores"
-                descriptionService="Use esta área para descrever o seu serviço."
-                time="45 min"
-                value='R$45'
-                />
+                <div className='div-cards-services'>
+                    <CardsPageServices
+                        img={img4}
+                        titleService="Checkup"
+                        descriptionService="Use esta área para descrever o seu serviço."
+                        time="30 min"
+                        value='R$100'
+                    />
+                    <a href=""><Button >Agendar Já</Button></a>
+                </div>
 
-                <CardsPageServices 
-                img={img6}
-                titleService="Cuidado Dental"
-                descriptionService="Use esta área para descrever o seu serviço."
-                time="20 min"
-                value='R$25'
-                />
+                <div className='div-cards-services'>
+                    <CardsPageServices
+                        img={img5}
+                        titleService="Terapia para Dores"
+                        descriptionService="Use esta área para descrever o seu serviço."
+                        time="45 min"
+                        value='R$45'
+                    />
+                    <a href=""><Button >Agendar Já</Button></a>
+                </div>
+
+                <div className='div-cards-services'>
+                    <CardsPageServices
+                        img={img6}
+                        titleService="Cuidado Dental"
+                        descriptionService="Use esta área para descrever o seu serviço."
+                        time="20 min"
+                        value='R$25'
+                    />
+                    <a href=""><Button >Agendar Já</Button></a>
+                </div>
             </section>
         </div>
     )

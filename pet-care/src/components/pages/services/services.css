@@ -1,7 +1,7 @@
 .page-services{
     height: 100%;
     width: 100%;
-    margin: 6rem 0;
+    margin: 5rem 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -9,7 +9,21 @@
     color: #3a54b4;
 }
 
+.div-cards-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.div-cards-services button {
+    margin: -2rem 0 2rem 0;
+}
+
+.div-cards-services a {
+    width: 100%;
+    margin-left: 50%;
+}
 
 .page-services section{
     display: flex;
