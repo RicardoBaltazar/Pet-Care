@@ -20,10 +20,22 @@ export default function PageBrushing() {
             <p>Agende Online</p>
             <p>Escovação</p>
             <p>35 minutos | R$ 35</p>
+            <p>Agende Já</p>
             <form action="">
-                <input type="text" />
-                <input type="datetime" name="" id="" />
                 
+                    <label htmlFor="">Nome</label>
+                    <input type="text" />
+                
+                    <label htmlFor="">Contato / telefone ou email</label>
+                    <input type="text"/>
+                
+                    <label htmlFor="">Data</label>
+                    <input type="date" name="" id="" />
+
+                    <label htmlFor="">Hora</label>
+                    <input type="time" name="" id=""/>
+
+                    <Button >Agendar</Button>
             </form>
 
         </div>
