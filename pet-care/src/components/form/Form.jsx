@@ -67,8 +67,6 @@ export default class Form extends Component {
 
         event.preventDefault();
         alert('Post Realizado!')
-
-
     }
 
     render() {
