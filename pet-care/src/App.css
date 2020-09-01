@@ -26,6 +26,8 @@ a{
   text-decoration: none;
 }
 
+
+
 @media(max-width: 426px){
     .App {
         width: 90%;
