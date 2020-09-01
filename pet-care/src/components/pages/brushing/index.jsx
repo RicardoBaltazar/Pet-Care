@@ -104,7 +104,7 @@ export default class PageBrushing extends Component {
                     <label htmlFor="">Hora</label>
                     <input type="time" name="" id="" value={this.state.hour} onChange={this.handleHour}/>
 
-                    <Button >Agendar</Button>
+                    <Button className='buton-form-brushing'>Agendar</Button>
                 </form>
 
             </div>
