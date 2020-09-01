@@ -63,17 +63,10 @@
         display: initial;
 }
 
-.buton-form-brushing{
-    opacity: 70%;
-    transition: 500ms;
-    background-color:#3a54b4;
-    color: #fff;
-}
-/*
+
 .div-page-brushing form button:hover {
     opacity: 70%;
     transition: 500ms;
     background-color:#3a54b4;
     color: #fff;
 }
-*/
