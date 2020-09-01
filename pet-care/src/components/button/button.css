@@ -8,7 +8,8 @@ button {
 }
 
 button:hover {
-    opacity: 70%;
+    opacity: 50%;
+    transition: 500ms;
 }
 
 @media(max-width: 426px) {

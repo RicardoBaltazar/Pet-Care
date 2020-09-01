@@ -9,6 +9,7 @@ body {
   /*Azul #3a54b4*/
   background-color: #fff;
   font-family: 'roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 
