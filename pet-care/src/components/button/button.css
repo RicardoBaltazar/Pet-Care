@@ -4,12 +4,12 @@ button {
     color: #fff;
     background-color: #3a54b4;
     border: 0;
-    display: initial;
 }
 
 button:hover {
     opacity: 70%;
     transition: 500ms;
+    cursor: pointer;
 }
 
 @media(max-width: 426px) {
