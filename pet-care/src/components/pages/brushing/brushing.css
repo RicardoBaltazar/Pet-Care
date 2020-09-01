@@ -31,7 +31,6 @@
 
 .div-page-brushing form {
     width: 50%;
-    background-color:#fff;
     padding: 0;
     padding-top: -10px;
     display: flex;
@@ -64,7 +63,4 @@
 }
 */
 
-.div-page-brushing form button:hover {
-    background-color:#3a54b4;
-    color: #fff;
-}
+
