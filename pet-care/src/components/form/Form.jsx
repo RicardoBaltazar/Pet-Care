@@ -106,7 +106,7 @@ export default class Form extends Component {
                     <input type="text" placeholder='Assunto' value={this.state.topic} onChange={this.handleTopic} />
                     <input name="" id="" placeholder='Deixe sua mensagem aqui...' className='input-message'
                         value={this.state.message} onChange={this.handleMessage} />
-                    <button type="submit">Enviar</button>
+                    <button type="submit" className='form-button'>Enviar</button>
                 </form>
             </>
         )

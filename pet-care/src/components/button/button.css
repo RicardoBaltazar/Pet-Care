@@ -8,7 +8,7 @@ button {
 
 button:hover {
     opacity: 70%;
-    transition: 500ms;
+    transition: 0.5s;
     cursor: pointer;
 }
 
