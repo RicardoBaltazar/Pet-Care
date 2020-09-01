@@ -85,10 +85,11 @@ export default class PageBrushing extends Component {
                 Uma boa descrição coloca os leitores no clima e os
                 incentiva a agendar.
             </p>
+            <br/>
                 <p>Agende Online</p>
+                <br/><br/><br/>
                 <p>Escovação</p>
                 <p>35 minutos | R$ 35</p>
-                <p>Agende Já</p>
                 <form action="" onSubmit={this.handleSubmit}>
 
                     <label htmlFor="">Nome</label>

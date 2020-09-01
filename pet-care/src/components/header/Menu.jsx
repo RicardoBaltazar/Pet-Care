@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { Link, animateScroll as scroll } from "react-scroll";
+
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -36,7 +38,7 @@ const RightNav = ({ open }) => {
             <a href="#/"><li>Página Inicial</li></a>
             <a href="#/about"><li>Sobre</li></a>
             <a href="#/services"><li>Serviços</li></a>
-            <a href="/"><li>Contatos</li></a>
+            <Link to="#form" smooth><li>Contatos</li></Link>
         </Ul>
     )
 }

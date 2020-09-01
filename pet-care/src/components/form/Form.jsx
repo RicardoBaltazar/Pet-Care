@@ -66,13 +66,13 @@ export default class Form extends Component {
         });
 
         event.preventDefault();
-        alert('Post Realizado!')
+        alert('Obrigado pelo Envio!')
     }
 
     render() {
         return (
             <>
-                <form action="" onSubmit={this.handleSubmit}>
+                <form action="" id='#form' onSubmit={this.handleSubmit}>
 
                     <h3>Contato</h3>
                     <div className='contact'>
@@ -103,6 +103,7 @@ export default class Form extends Component {
                     <input name="" id="" placeholder='Deixe sua mensagem aqui...' className='input-message' 
                     value={this.state.message} onChange={this.handleMessage}/>
                     <button type="submit">Enviar</button>
+                    <p></p>
                 </form>
             </>
         )
