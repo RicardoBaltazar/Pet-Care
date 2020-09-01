@@ -61,7 +61,7 @@ export default function PageServices() {
                         time="30 min"
                         value='R$100'
                     />
-                    <a href=""><Button >Agendar Já</Button></a>
+                    <a href="#/checkup"><Button >Agendar Já</Button></a>
                 </div>
 
                 <div className='div-cards-services'>
