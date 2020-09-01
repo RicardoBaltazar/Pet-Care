@@ -37,7 +37,7 @@ export default function PageServices() {
                         time="15 min"
                         value='R$60'
                     />
-                    <a href=""><Button >Agendar Já</Button></a>
+                    <a href="#/vaccination"><Button >Agendar Já</Button></a>
                 </div>
 
                 <div className='div-cards-services'>

@@ -7,6 +7,7 @@ import PageAbout from '../pages/about/index'
 import PageServices from '../pages/services/index'
 import PageBrushing from '../pages/brushing/index'
 import  ScrollToTop from '../scrollToTop/index'
+import PageVaccination from '../pages/vaccination/index'
 
 
 export default function Routes() {
@@ -19,6 +20,7 @@ export default function Routes() {
             <Route exact path='/about' component={PageAbout} />
             <Route exact path='/services' component={PageServices} />
             <Route exact path='/brushing' component={PageBrushing}/>
+            <Route exact path='/vaccination' component={PageVaccination}/>
 
  
             <Redirect from='' to='/' />

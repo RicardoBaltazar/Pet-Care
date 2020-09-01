@@ -6,8 +6,8 @@ const url = 'http://localhost:8000/message-contact'
 
 export default class Form extends Component {
 
-    constructor(props){
-        super(props) 
+    constructor(props) {
+        super(props)
         this.state = {
             name: '',
             email: '',
@@ -22,35 +22,39 @@ export default class Form extends Component {
         this.handleMessage = this.handleMessage.bind(this)
     }
 
-    handleName(event){
+    handleName(event) {
         this.setState({
             name: event.target.value
         })
     }
 
-    handleEmail(event){
+    handleEmail(event) {
         this.setState({
             email: event.target.value
         })
     }
 
-    handleTopic(event){
+    handleTopic(event) {
         this.setState({
             topic: event.target.value
         })
     }
 
-    handleMessage(event){
+    handleMessage(event) {
         this.setState({
             message: event.target.value
         })
     }
 
-    handleSubmit(event){
+
+
+
+    handleSubmit(event) {
         const name = this.state.name
         const email = this.state.email
         const topic = this.state.topic
         const message = this.state.message
+        const confirm = this.state.confirm
 
         axios.post(url, {
             Name: name,
@@ -58,15 +62,15 @@ export default class Form extends Component {
             topic: topic,
             message: message
         })
-        .then(function (response) {
-            console.log(response);
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
 
         event.preventDefault();
-        alert('Obrigado pelo Envio!')
+        alert('Obrigado pelo envio')
     }
 
     render() {
@@ -95,15 +99,14 @@ export default class Form extends Component {
                     </div>
 
                     <div className='input-name'>
-                        <input type="text" placeholder='Nome' value={this.state.name} onChange={this.handleName}/>
-                        <input type="email" name="" id="" placeholder='Email' value={this.state.email} onChange={this.handleEmail}/>
+                        <input type="text" placeholder='Nome' value={this.state.name} onChange={this.handleName} />
+                        <input type="email" name="" id="" placeholder='Email' value={this.state.email} onChange={this.handleEmail} />
                     </div>
 
-                    <input type="text" placeholder='Assunto' value={this.state.topic} onChange={this.handleTopic}/>
-                    <input name="" id="" placeholder='Deixe sua mensagem aqui...' className='input-message' 
-                    value={this.state.message} onChange={this.handleMessage}/>
+                    <input type="text" placeholder='Assunto' value={this.state.topic} onChange={this.handleTopic} />
+                    <input name="" id="" placeholder='Deixe sua mensagem aqui...' className='input-message'
+                        value={this.state.message} onChange={this.handleMessage} />
                     <button type="submit">Enviar</button>
-                    <p></p>
                 </form>
             </>
         )
