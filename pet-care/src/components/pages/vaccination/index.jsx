@@ -85,11 +85,11 @@ export default class PageVaccination extends Component {
                 Uma boa descrição coloca os leitores no clima e os
                 incentiva a agendar.
             </p>
-            <br/>
-                <p>Agende Online</p>
-                <br/><br/><br/>
+            <br/><br/>
                 <p>Vacinação</p>
                 <p>15 minutos | R$ 60</p>
+                <br/><br/><br/>
+                <p>Agende Online</p>
                 <form action="" onSubmit={this.handleSubmit}>
 
                     <label htmlFor="">Nome</label>

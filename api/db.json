@@ -1,13 +1,9 @@
 {
   "message-contact": [],
   "page-brushing": [],
-  "page-vaccination": [
-    {
-      "Name": "ricardo",
-      "contact": "email@email",
-      "date": "2020-12-12",
-      "hour": "12:12",
-      "id": 1
-    }
-  ]
+  "page-vaccination": [],
+  "page-behavioral": [],
+  "page-checkup": [],
+  "page-pain-therapy": [],
+  "page-dental-care": []
 }

@@ -1,0 +1,70 @@
+.div-page-brushing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #3a54b4;
+    margin-top: 5rem;
+    padding: 0 6rem 2rem 6rem;
+    height: 125%;
+}
+
+.div-page-brushing img {
+    width: 70%;
+    margin: 1rem 0;
+}
+
+.div-page-brushing p {
+    margin: 0.9rem 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div-page-brushing small{
+    margin: 0.8rem 0;
+}
+
+.descripition-brushing{
+    width: 60%;
+}
+
+.div-page-brushing form {
+    width: 50%;
+    background-color:#fff;
+    padding: 0;
+    padding-top: -10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+} 
+
+.div-page-brushing form label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.div-page-brushing form input {
+    background-color: #fff;
+    width: 100%;
+    color: #3a54b4;
+    border: solid 1px #3a54b4;
+    outline: 0;
+    margin: 0;
+    margin: 1.5rem 0;
+}   
+
+.div-page-brushing form button {
+        padding: 15px 10px;
+        width: 50%;
+        color: #fff;
+        background-color: #3a54b4;
+        border: 0;
+        display: initial;
+}
+.div-page-brushing form button:hover {
+    opacity: 70%;
+    transition: 500ms;
+    background-color:#3a54b4;
+    color: #fff;
+}

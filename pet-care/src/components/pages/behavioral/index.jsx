@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import './brushing.css'
+import './behavioral.css'
 import Button from '../../button/Button'
 import axios from 'axios'
 
-const url = 'http://localhost:8000/page-brushing'
-const img1 = require('../../../assets/img-page-brushing.png')
+const url = 'http://localhost:8000/page-behavioral'
+const img1 = require('../../../assets/img-page-behavioral.png')
 
-export default class PageBrushing extends Component {
+export default class PageBehavioral extends Component {
 
     constructor(props){
         super(props) 
@@ -75,9 +75,9 @@ export default class PageBrushing extends Component {
     render() {
         return (
             <div className='div-page-brushing'>
-                <h2>Escovação</h2>
+                <h2>Consulta Comportamental</h2>
                 <small>Use esta área para descrever o seu serviço</small>
-                <p>35 minutos | R$ 35</p>
+                <p>1 h 30 minutos | R$ 200</p>
                 <img src={img1} alt="imagem do cachorrinho" />
                 <p className='descripition-brushing'>Descreva seu serviço aqui. O que o torna especial?
                 Use um texto curto e atraente para contar os seus
@@ -86,8 +86,8 @@ export default class PageBrushing extends Component {
                 incentiva a agendar.
             </p>
             <br/><br/>
-                <p>Escovação</p>
-                <p>35 minutos | R$ 35</p>
+                <p>Consulta Comportamental</p>
+                <p>1 h 30 minutos | R$ 200</p>
                 <br/><br/><br/>
                 <p>Agende Online</p>
                 <form action="" onSubmit={this.handleSubmit}>
