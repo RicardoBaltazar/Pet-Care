@@ -36,12 +36,12 @@
     padding-top: -10px;
     display: flex;
     flex-direction: column;
-    text-align: left;
 } 
 
 .div-page-dental-care form label {
     text-align: left;
     font-weight: bold;
+    margin-top: 2rem;
 }
 
 .div-page-dental-care form input {
@@ -54,14 +54,10 @@
     margin: 1.5rem 0;
 }   
 
-/*
-.div-page-brushing form button {
-        padding: 15px 10px;
-        width: 500%;
-        color: #fff;
-        background-color: #3a54b4;
-        border: 0;
+@media(max-width: 769px){
+    .div-page-dental-care form {
+        width: 75%;
+    } 
 }
-*/
 
 

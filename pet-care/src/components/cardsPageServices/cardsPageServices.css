@@ -24,3 +24,23 @@
     font-weight: bold;
     font-size: 15px;
 }
+
+@media(max-width: 769px){
+    .cards-page-services{
+        width: 50%;
+        align-items: center;
+    }
+
+    .cards-page-services img {
+        width: 175px;
+    }
+
+    .cards-page-services h3 {
+        font-size: 2rem;
+    }
+
+    .cards-page-services p {
+        margin: 10px auto;
+        font-size: 1.5rem;
+    }
+}

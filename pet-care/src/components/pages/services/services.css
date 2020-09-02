@@ -28,3 +28,23 @@
 .page-services section{
     display: flex;
 }
+
+@media(max-width: 769px){
+    .page-services{
+        width: 66%;
+        margin: 5rem auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: #3a54b4;
+    }
+
+    .page-services section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
