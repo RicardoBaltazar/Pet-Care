@@ -28,6 +28,14 @@
       "id": 1
     }
   ],
-  "page-pain-therapy": [],
+  "page-pain-therapy": [
+    {
+      "Name": "rick",
+      "contact": "e@email'",
+      "date": "",
+      "hour": "",
+      "id": 1
+    }
+  ],
   "page-dental-care": []
 }

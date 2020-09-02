@@ -10,6 +10,7 @@ import ScrollToTop from '../scrollToTop/index'
 import PageVaccination from '../pages/vaccination/index'
 import PageBehavioral from '../pages/behavioral'
 import PageCheckup from '../pages/checkup/index'
+import PagePainTherapy from '../pages/therapy/index'
 
 
 export default function Routes() {
@@ -25,6 +26,7 @@ export default function Routes() {
             <Route exact path='/vaccination' component={PageVaccination} />
             <Route exact path='/behavioral' component={PageBehavioral} />
             <Route exact path='/checkup' component={PageCheckup} />
+            <Route exact path='/pain-therapy' component={PagePainTherapy} />
 
 
             <Redirect from='' to='/' />
