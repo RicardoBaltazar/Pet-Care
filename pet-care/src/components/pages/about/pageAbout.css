@@ -20,12 +20,9 @@ h2 {
     margin: 2rem;
 }
 
-
-
 .pageAbout div span {
     font-weight: bold;
     font-size: 22px;
-
     width: 350px;
 }
 
@@ -41,4 +38,26 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: 2rem 5rem;
+}
+
+@media(max-width: 769px){
+    .pageAbout {
+        height: 125%;
+        width: 95%;
+        padding: 20px 50px;
+        margin: 3rem 0;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    .div-about-infos{
+        flex-direction: column;
+    }
+
+    .pageAbout div p {
+        font-size: 1.3rem;
+    }
+
 }
