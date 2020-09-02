@@ -1,4 +1,4 @@
-.div-page-brushing {
+.div-page-checkup {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,26 +10,26 @@
     height: 125%;
 }
 
-.div-page-brushing img {
+.div-page-checkup img {
     width: 70%;
     margin: 1rem 0;
 }
 
-.div-page-brushing p {
+.div-page-checkup p {
     margin: 0.9rem 0;
     font-weight: bold;
     font-size: 20px;
 }
 
-.div-page-brushing small{
+.div-page-checkup small{
     margin: 0.8rem 0;
 }
 
-.descripition-brushing{
+.descripition-checkup{
     width: 60%;
 }
 
-.div-page-brushing form {
+.div-page-checkup form {
     width: 50%;
     background-color:#fff;
     padding: 0;
@@ -39,12 +39,12 @@
     text-align: left;
 } 
 
-.div-page-brushing form label {
+.div-page-checkup form label {
     text-align: left;
     font-weight: bold;
 }
 
-.div-page-brushing form input {
+.div-page-checkup form input {
     background-color: #fff;
     width: 100%;
     color: #3a54b4;

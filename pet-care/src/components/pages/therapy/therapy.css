@@ -1,4 +1,4 @@
-.div-page-brushing {
+.div-page-therapy {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,40 +10,41 @@
     height: 125%;
 }
 
-.div-page-brushing img {
+.div-page-therapy img {
     width: 70%;
     margin: 1rem 0;
 }
 
-.div-page-brushing p {
+.div-page-therapy p {
     margin: 0.9rem 0;
     font-weight: bold;
     font-size: 20px;
 }
 
-.div-page-brushing small{
+.div-page-therapy small{
     margin: 0.8rem 0;
 }
 
-.descripition-brushing{
+.descripition-therapy{
     width: 60%;
 }
 
-.div-page-brushing form {
+.div-page-therapy form {
     width: 50%;
     padding: 0;
+    background-color:#fff;
     padding-top: -10px;
     display: flex;
     flex-direction: column;
     text-align: left;
 } 
 
-.div-page-brushing form label {
+.div-page-therapy form label {
     text-align: left;
     font-weight: bold;
 }
 
-.div-page-brushing form input {
+.div-page-therapy form input {
     background-color: #fff;
     width: 100%;
     color: #3a54b4;

@@ -74,12 +74,12 @@ export default class PageVaccination extends Component {
 
     render() {
         return (
-            <div className='div-page-brushing'>
+            <div className='div-page-vaccination'>
                 <h2>Vacinação</h2>
                 <small>Use esta área para descrever o seu serviço</small>
                 <p>15 minutos | R$ 60</p>
                 <img src={img1} alt="imagem do cachorrinho" />
-                <p className='descripition-brushing'>Descreva seu serviço aqui. O que o torna especial?
+                <p className='descripition-vaccination'>Descreva seu serviço aqui. O que o torna especial?
                 Use um texto curto e atraente para contar os seus
                 serviços oferecidos e os benefícios que você propõe.
                 Uma boa descrição coloca os leitores no clima e os

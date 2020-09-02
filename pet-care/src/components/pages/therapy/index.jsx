@@ -74,12 +74,12 @@ export default class PagePainTherapy extends Component {
 
     render() {
         return (
-            <div className='div-page-brushing'>
+            <div className='div-page-therapy'>
                 <h2>Terapia para Dores</h2>
                 <small>Use esta área para descrever o seu serviço</small>
                 <p>45 minutos | R$ 45</p>
                 <img src={img1} alt="imagem do cachorrinho" />
-                <p className='descripition-brushing'>Descreva seu serviço aqui. O que o torna especial?
+                <p className='descripition-therapy'>Descreva seu serviço aqui. O que o torna especial?
                 Use um texto curto e atraente para contar os seus
                 serviços oferecidos e os benefícios que você propõe.
                 Uma boa descrição coloca os leitores no clima e os

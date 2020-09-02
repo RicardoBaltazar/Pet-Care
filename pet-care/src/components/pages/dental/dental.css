@@ -1,4 +1,4 @@
-.div-page-brushing {
+.div-page-dental-care {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,40 +10,41 @@
     height: 125%;
 }
 
-.div-page-brushing img {
+.div-page-dental-care img {
     width: 70%;
     margin: 1rem 0;
 }
 
-.div-page-brushing p {
+.div-page-dental-care p {
     margin: 0.9rem 0;
     font-weight: bold;
     font-size: 20px;
 }
 
-.div-page-brushing small{
+.div-page-dental-care small{
     margin: 0.8rem 0;
 }
 
-.descripition-brushing{
+.descripition-dental-care{
     width: 60%;
 }
 
-.div-page-brushing form {
+.div-page-dental-care form {
     width: 50%;
     padding: 0;
+    background-color: #fff;
     padding-top: -10px;
     display: flex;
     flex-direction: column;
     text-align: left;
 } 
 
-.div-page-brushing form label {
+.div-page-dental-care form label {
     text-align: left;
     font-weight: bold;
 }
 
-.div-page-brushing form input {
+.div-page-dental-care form input {
     background-color: #fff;
     width: 100%;
     color: #3a54b4;
