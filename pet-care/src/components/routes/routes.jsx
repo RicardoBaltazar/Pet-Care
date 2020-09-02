@@ -11,6 +11,7 @@ import PageVaccination from '../pages/vaccination/index'
 import PageBehavioral from '../pages/behavioral'
 import PageCheckup from '../pages/checkup/index'
 import PagePainTherapy from '../pages/therapy/index'
+import PageDentalCare from '../pages/dental/index'
 
 
 export default function Routes() {
@@ -27,7 +28,7 @@ export default function Routes() {
             <Route exact path='/behavioral' component={PageBehavioral} />
             <Route exact path='/checkup' component={PageCheckup} />
             <Route exact path='/pain-therapy' component={PagePainTherapy} />
-
+            <Route exact path='/dental' component={PageDentalCare} />
 
             <Redirect from='' to='/' />
         </HashRouter>
