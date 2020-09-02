@@ -22,6 +22,26 @@
     transition: 500ms;
 }
 
+@media(max-width: 769px){
+
+    .image-clients {
+        height: 100%;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .grid-imagens-clients {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        transition: 500ms;
+    }
+
+    .grid-imagens-clients img {
+        width: 22rem;
+    }
+}
+
 @media(max-width: 426px){
     .image-clients {
         margin-top: 45rem;

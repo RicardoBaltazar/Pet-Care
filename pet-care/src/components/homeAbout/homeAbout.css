@@ -3,13 +3,12 @@
     justify-content: center;
     align-items: center;
     color: #3a54b4;
-    margin-top: 3rem;
     padding: 0 6rem 0 10rem;
     height: 100vh;
 }
 
 .img-about {
-    margin-right: 3rem;
+    margin-right: 7rem;
 }
 
 .title-about {
@@ -27,7 +26,6 @@
     font-size: 8.9rem;
     font-weight: bold;
     line-height: 7rem;
-    margin-top: -40px;
 }
 
 .title-about p {
@@ -37,6 +35,52 @@
     letter-spacing: .2rem;
     line-height: 1.4rem;
     font-weight: 300;
+}
+
+@media(max-width: 769px){
+    .home-about {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin: 2rem 0;
+        padding: 20px 50px;
+        justify-content: center;
+        align-items: center;
+        color: #3a54b4;
+    }
+
+    .title-about {
+        max-width: 450px;
+        font-size: 32px;
+        font-weight: 300;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+        margin-left: 0rem;
+    }
+
+    .title-about p {
+        max-width: 450px;
+        font-size: 18px;
+        margin: 25px 0 ;
+        letter-spacing: .2rem;
+        line-height: 1.4rem;
+        font-weight: 300;
+    }
+
+    .img-about {
+        margin-right: 0;
+    }
+
+    .img-about img {
+        width: 25rem;
+    }
+
+    .title-about a{
+        width: 100%;
+        margin-left: 50%;
+    }
 }
 
 @media(max-width: 426px){

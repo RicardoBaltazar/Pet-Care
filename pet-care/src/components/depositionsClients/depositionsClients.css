@@ -18,6 +18,23 @@
     justify-content: space-around;
 }
 
+@media(max-width: 769px){
+    .deposition-clients {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 5rem 0;
+    }
+
+    .deposition-clients div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
 @media(max-width: 426px){
     .deposition-clients {
         margin-top: 70rem;

@@ -1,12 +1,12 @@
 .pageAbout {
     height: 125vh;
     width: 100%;
-  
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     color: #3a54b4;
+    transition: 500ms;
 }
 
 h2 {
@@ -40,5 +40,5 @@ h2 {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: 2rem 5rem;
 }

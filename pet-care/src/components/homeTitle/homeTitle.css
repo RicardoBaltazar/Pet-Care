@@ -1,12 +1,13 @@
 .home-title{
     background-color: #fef7ed;
-    height: 125vh;
+    height: 110vh;
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #3a54b4;
+    transition: 500ms;
 }
 
 .title {
@@ -14,7 +15,6 @@
     font-size: 35px;
     margin-right: -35px;
     font-weight: 300;
-
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -35,6 +35,23 @@
 .img-title img{
     margin-right: -45px;
 }
+
+@media(max-width: 769px){
+    .home-title{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 20px 50px;
+    }
+
+    .img-title{
+        margin-right: 1rem;
+    }
+    
+    .img-title img {        
+        width: 20rem;
+    }
+} 
 
 @media(max-width: 426px) {
     .home-title{

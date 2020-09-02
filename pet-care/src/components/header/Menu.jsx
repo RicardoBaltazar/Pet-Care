@@ -9,7 +9,7 @@ const Ul = styled.ul`
   li {
     padding: 18px 10px;
   }
-  @media (max-width: 769px) {
+  @media (max-width: 426px) {
         flex-flow: column nowrap;
         justify-content: center;
         text-align: center;
