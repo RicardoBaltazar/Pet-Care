@@ -109,13 +109,12 @@ h2 {
 @media(max-width: 376px){
     .pageAbout {
         height: 100%;
-        width: 100%;
         margin: 2rem auto;
     }
 
     h2 {
         font-size: 2rem;
-        width: 110%;
+        width: 100%;
     }
 
     .div-about-infos img{
@@ -130,22 +129,29 @@ h2 {
 }
 
 @media(max-width: 321px){
+    
     h2 {
         font-size: 1.5rem;
         width: auto;
     }
 
+    .div-about-infos{
+        width: 100%;
+        margin: 2rem;
+    }
+    
     .div-about-infos img{
         width: 14rem;
     }
-
+    
     .pageAbout div span {
-        width: 90%;
-        font-size: 1.5rem;
-        text-align: left;
+        width: 100%;
+        font-size: 1.3rem;
+        text-align: center;
     }
 
     .pageAbout div p {
-        width: 90%;
+        width: 100%;
+        text-align: justify;
     }
 }
