@@ -37,8 +37,8 @@
 
 @media(max-width: 426px){
     .deposition-clients {
-        margin-top: 70rem;
-        margin-bottom: 20rem;
+        height: 100%;
+        margin-top: 7rem;
     }
 
     .deposition-clients h3 {

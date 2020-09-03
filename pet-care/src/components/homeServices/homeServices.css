@@ -40,6 +40,9 @@
 }
 
 @media(max-width: 426px){
+    .home-services{
+        height: 100%;
+    }
     .cards-services{
         flex-direction: column;   
     }
@@ -53,5 +56,10 @@
 
     .card-services {
         margin: 3rem;
+    }
+
+    .card-services a{
+        width: 18rem;
+        margin-left: 0%;
     }
 }

@@ -44,7 +44,8 @@
 
 @media(max-width: 426px){
     .image-clients {
-        margin-top: 45rem;
+        height: 100%;
+        margin-top: 0;
     }
 
     .image-clients h3 {
