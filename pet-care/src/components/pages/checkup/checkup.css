@@ -57,7 +57,17 @@
 @media(max-width: 769px){
     .div-page-checkup form {
         width: 75%;
-    } 
+    }
 }
 
+@media(max-width:426px ){
+    .div-page-checkup {
+        padding: 0 0 6rem  0 ;
+        height: 100%;
+    }
+
+    .descripition-checkup{
+        width: 90%;
+    }
+}
 

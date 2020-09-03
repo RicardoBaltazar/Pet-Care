@@ -60,4 +60,15 @@
     } 
 }
 
+@media(max-width: 426px){
+    .div-page-therapy {
+        padding: 0 0 6rem  0 ;
+        height: 100%;
+    }
+
+    .descripition-therapy{
+        width: 90%;
+    }
+}
+
 

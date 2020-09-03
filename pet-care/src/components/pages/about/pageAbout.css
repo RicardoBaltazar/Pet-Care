@@ -82,16 +82,18 @@ h2 {
     .div-about-infos img{
         width: 18rem;
     }
-
+    
     .pageAbout div span {
         width: 300px;
         font-size: 1.2rem;
+        text-align: left;
     }
-
+    
     .pageAbout div p {
         width: 300px;
         margin: 0px;
         font-size: 1.1rem;
+        text-align: left;
     }
 
     .text-about{
@@ -101,5 +103,16 @@ h2 {
         display: flex;
         flex-direction: column;
         margin: 2rem 5rem;
+    }
+}
+
+@media(max-width: 376px){
+    h2 {
+        font-size: 2.1rem;
+        width: 110%;
+    }
+
+    .div-about-infos img{
+        width: 16rem;
     }
 }

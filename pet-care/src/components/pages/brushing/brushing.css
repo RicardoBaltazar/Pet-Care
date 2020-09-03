@@ -60,6 +60,17 @@
     } 
 }
 
+@media(max-width: 426px){
+    .div-page-brushing {
+        padding: 0 0 6rem  0 ;
+        height: 100%;
+    }
+
+    .descripition-brushing{
+        width: 90%;
+    }
+}
+
 
 
 

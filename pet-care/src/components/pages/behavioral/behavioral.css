@@ -60,3 +60,14 @@
     } 
 }
 
+@media(max-width: 426px){
+    .div-page-behavioral {
+        padding: 0 0 6rem  0 ;
+        height: 100%;
+    }
+
+    .descripition-behavioral{
+        width: 90%;
+    }
+}
+

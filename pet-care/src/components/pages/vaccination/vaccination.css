@@ -60,3 +60,14 @@
     } 
 }
 
+@media(max-width: 426px){
+    .div-page-vaccination {
+        padding: 0 0 6rem  0 ;
+        height: 100%;
+    }
+
+    .descripition-vaccination{
+        width: 90%;
+    }
+}
+
