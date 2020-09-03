@@ -52,7 +52,7 @@ export default function PageServices() {
                 </div >
             </section>
 
-            <section>
+            <section className='section-2'>
                 <div className='div-cards-services'>
                     <CardsPageServices
                         img={img4}

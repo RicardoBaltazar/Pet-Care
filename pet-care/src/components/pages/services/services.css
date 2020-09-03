@@ -16,6 +16,10 @@
     justify-content: center;
 }
 
+.page-services section{
+    display: flex;
+}
+
 .div-cards-services button {
     margin: -2rem 0 2rem 0;
 }
@@ -25,9 +29,6 @@
     margin-left: 50%;
 }
 
-.page-services section{
-    display: flex;
-}
 
 @media(max-width: 769px){
     .page-services{
@@ -47,4 +48,28 @@
         align-items: center;
         margin: 0 auto;
     }
+}
+
+@media(max-width: 426px){
+    .page-services{
+        margin: 5rem 0;
+    }
+
+
+    .page-services div h2 {
+        font-size: 1.5rem;
+        margin-left: 30%;
+        width: 100%;
+    }
+
+    .div-cards-services a {
+        width: 18rem;
+        margin: 0;
+    }
+
+    .page-services .section-2{
+
+        margin-left: 2rem;
+    }
+
 }
