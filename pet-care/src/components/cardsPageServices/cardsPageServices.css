@@ -44,3 +44,13 @@
         font-size: 1.5rem;
     }
 }
+
+@media(max-width: 426px){
+    .cards-page-services h3 {
+        font-size: 1.5rem;
+    }
+
+    .cards-page-services p {
+        font-size: 1rem;
+    }
+}

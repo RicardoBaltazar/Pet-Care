@@ -69,5 +69,9 @@
     .descripition-vaccination{
         width: 90%;
     }
+
+    .div-page-vaccination form {
+        width: 95%;
+    } 
 }
 

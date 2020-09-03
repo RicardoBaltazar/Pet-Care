@@ -63,3 +63,23 @@
         margin-left: 0%;
     }
 }
+
+@media(max-width: 376px){
+    .home-services {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: #3a54b4;
+    }
+
+    .home-services h2{
+        font-size: 2rem;
+        margin-left: 0%;
+        font-weight: bold;
+        line-height: 7rem;
+        margin-top: 10rem;
+    }
+
+}

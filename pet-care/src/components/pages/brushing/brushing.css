@@ -69,8 +69,11 @@
     .descripition-brushing{
         width: 90%;
     }
-}
 
+    .div-page-brushing form {
+        width: 95%;
+    } 
+}
 
 
 

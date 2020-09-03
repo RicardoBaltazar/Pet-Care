@@ -68,14 +68,18 @@
         margin-top: 150px;
         font-size: 25px;
         align-items: center;
-        max-width: 75%;
+        max-width: 100%;
     }
 
     .title .title-h1{
-        font-size: 7rem;
+        font-size: 4rem;
         font-weight: bold;
         line-height: 7rem;
-        margin-top: -40px;
+        margin-top: -3rem;
+    }
+
+    .title p {
+        margin: 1rem 0 25px 0;
     }
     
     .img-title{
@@ -83,11 +87,24 @@
     }
 
     .img-title img{
-        margin: 9rem 0 -7rem 0;
-        width: 250px;
+        margin: 5rem 0 -7rem 0;
+        width: 15rem;
     }
 
     .home-title .title a {
         width: 18rem;
+    }
+}
+
+@media(max-width: 376px){
+    .title .title-h1{
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 7rem;
+        margin-top: -3rem;
+    }
+
+    .title p {
+        margin: 0.5rem 0 25px 0;
     }
 }

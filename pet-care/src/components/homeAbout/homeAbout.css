@@ -94,12 +94,13 @@
 
     .img-about img{
         margin-right: 0rem;
-        width: 300px;
+        width: 15rem;
     }
     
     .title-about p{
         text-align: left;
         max-width: 90%;
+        font-size: 1rem;
     }
 
     .title-about a{

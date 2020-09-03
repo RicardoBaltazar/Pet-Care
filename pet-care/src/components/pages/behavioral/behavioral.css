@@ -69,5 +69,9 @@
     .descripition-behavioral{
         width: 90%;
     }
+
+    .div-page-behavioral form {
+        width: 95%;
+    } 
 }
 

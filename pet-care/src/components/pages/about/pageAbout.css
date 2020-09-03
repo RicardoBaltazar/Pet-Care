@@ -115,4 +115,8 @@ h2 {
     .div-about-infos img{
         width: 16rem;
     }
+
+    .pageAbout div p {
+        width: 19rem;
+    }
 }
