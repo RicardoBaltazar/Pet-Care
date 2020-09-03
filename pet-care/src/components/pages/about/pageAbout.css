@@ -59,5 +59,47 @@ h2 {
     .pageAbout div p {
         font-size: 1.3rem;
     }
+}
 
+@media(max-width: 426px){
+    .pageAbout {
+        height: 125%;
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        margin-top: 4rem;
+    }
+
+    .div-about-infos{
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    .div-about-infos img{
+        width: 18rem;
+    }
+
+    .pageAbout div span {
+        width: 300px;
+        font-size: 1.2rem;
+    }
+
+    .pageAbout div p {
+        width: 300px;
+        margin: 0px;
+        font-size: 1.1rem;
+    }
+
+    .text-about{
+        width: 15rem;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 5rem;
+    }
 }
