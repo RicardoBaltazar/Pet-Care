@@ -42,7 +42,7 @@
     }
 
     .deposition-clients h3 {
-        font-size: 30px;
+        font-size: 2rem;
     }
 
     .deposition-clients div {
@@ -51,4 +51,10 @@
         justify-content: center;
         align-items: center;
     }    
+}
+
+@media(max-width: 321px){
+    .deposition-clients h3 {
+        font-size: 1.5rem;
+    }
 }

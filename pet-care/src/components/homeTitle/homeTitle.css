@@ -87,7 +87,7 @@
     }
 
     .img-title img{
-        margin: 5rem 0 -7rem 0;
+        margin: 5rem 0 -7rem 1.5rem;
         width: 15rem;
     }
 
@@ -106,5 +106,11 @@
 
     .title p {
         margin: 0.5rem 0 25px 0;
+    }
+}
+
+@media(max-width: 321px){
+    .home-title .title a {
+        width: 15rem;
     }
 }

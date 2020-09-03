@@ -108,3 +108,13 @@
         margin-left: 0%;
     }
 }
+
+@media(max-width: 321px){
+    .title-about p{
+        max-width: 90%;
+    }
+
+    .title-about a{
+        width: 15rem;
+    }
+}

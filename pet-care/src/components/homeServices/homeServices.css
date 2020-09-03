@@ -42,6 +42,7 @@
 @media(max-width: 426px){
     .home-services{
         height: 100%;
+        margin-bottom: -6rem;
     }
     .cards-services{
         flex-direction: column;   
@@ -80,6 +81,10 @@
         font-weight: bold;
         line-height: 7rem;
         margin-top: 10rem;
+    }
+
+    .card-services a{
+        width: 15rem;
     }
 
 }

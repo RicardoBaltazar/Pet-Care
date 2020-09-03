@@ -94,3 +94,10 @@
         margin-left: 0rem;
     }
 }
+
+@media(max-width: 321px){
+    .div-cards-services a {
+        width: 15rem;
+
+    }
+}

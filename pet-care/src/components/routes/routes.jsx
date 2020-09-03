@@ -12,6 +12,7 @@ import PageBehavioral from '../pages/behavioral'
 import PageCheckup from '../pages/checkup/index'
 import PagePainTherapy from '../pages/therapy/index'
 import PageDentalCare from '../pages/dental/index'
+import Menu from '../../components/header/Header'
 
 
 export default function Routes() {
@@ -21,6 +22,7 @@ export default function Routes() {
             <ScrollToTop />
 
             <Route exact path='/' component={PageHome} />
+            <Route exact path='/' component={Menu} />
             <Route exact path='/about' component={PageAbout} />
             <Route exact path='/services' component={PageServices} />
             <Route exact path='/brushing' component={PageBrushing} />
