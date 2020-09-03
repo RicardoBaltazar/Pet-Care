@@ -110,6 +110,15 @@
 }
 
 @media(max-width: 321px){
+    .home-title{
+        text-align: center;
+        flex-direction: column;
+        height: 100%;       
+        width: 110%;
+        margin-left: -8px;
+        padding-bottom: 5rem;
+    }
+
     .home-title .title a {
         width: 15rem;
     }

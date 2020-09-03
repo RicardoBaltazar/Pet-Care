@@ -73,3 +73,9 @@
     }
 }
 
+@media(max-width: 321px){
+    .grid-imagens-clients img{
+        width: 305px;
+    }
+}
+

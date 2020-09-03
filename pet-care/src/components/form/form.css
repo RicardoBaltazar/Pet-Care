@@ -1,5 +1,6 @@
 form {
     height: 90vh;
+    width: 100%;
     background-color: #3a54b4;
 
     display: flex;
@@ -81,6 +82,7 @@ background-color: rgb(206, 201, 201);
 @media(max-width: 426px){
     form {
         padding: 30rem 0;
+        width: 106%;
     }
 
     form input {
