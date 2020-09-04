@@ -44,8 +44,8 @@ const MenuBurger = () => {
         <div />
         <div />
         <div />
-      </StyledBurger>
       <Menu open={open}/>
+      </StyledBurger>
     </>
   )
 }
