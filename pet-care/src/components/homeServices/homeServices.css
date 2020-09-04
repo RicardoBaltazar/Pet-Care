@@ -7,9 +7,8 @@
 }
 
 .home-services h2{
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: bold;
-    line-height: 7rem;
     margin-top: 75px;
     margin-bottom: 0;
 }
@@ -20,7 +19,7 @@
 }
 
 .card-services {
-    margin: 5rem;
+    margin: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,32 +34,32 @@
     .cards-services{
         flex-direction: column;
         margin-top: -50px;
-        margin-bottom: 7rem;
+        margin-bottom: 110px;
     }
 }
 
 @media(max-width: 426px){
     .home-services{
         height: 100%;
-        margin-bottom: -6rem;
+        margin-bottom: -96px;
     }
     .cards-services{
         flex-direction: column;   
     }
 
     .home-services h2{
-        font-size: 3rem;
+        font-size: 48px;
         font-weight: bold;
-        line-height: 7rem;
-        margin-top: 10rem;
+        line-height: 110px;
+        margin-top: 160px;
     }
 
     .card-services {
-        margin: 3rem;
+        margin: 48px;
     }
 
     .card-services a{
-        width: 18rem;
+        width: 288px;
         margin-left: 0%;
     }
 }
@@ -76,15 +75,15 @@
     }
 
     .home-services h2{
-        font-size: 2rem;
+        font-size: 32px;
         margin-left: 0%;
         font-weight: bold;
-        line-height: 7rem;
-        margin-top: 10rem;
+        line-height: 112px;
+        margin-top: 160px;
     }
 
     .card-services a{
-        width: 15rem;
+        width: 240px;
     }
 
 }
