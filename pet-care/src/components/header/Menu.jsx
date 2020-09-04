@@ -13,15 +13,20 @@ const Ul = styled.ul`
         flex-flow: column nowrap;
         justify-content: center;
         text-align: center;
+        text-align: center;
         background-color: #3a54b4;
         position: fixed;
         transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
         top: 0;
         right: 0;
+        left: 0;
         height: 100%;
         width: 100%;
         padding-top: 3.5rem;
         transition: transform 0.3s ease-in-out;
+        .link-contact{
+            display: none;
+        }
     li {
         color: #fff;
     }
@@ -31,17 +36,13 @@ const Ul = styled.ul`
 }
 `;
 
-
-
-
-
 const RightNav = ({ open }) => {
     return (
         <Ul open={open}>
             <a href="#/" ><li>Página Inicial</li></a>
             <a href="#/about"><li>Sobre</li></a>
             <a href="#/services"><li>Serviços</li></a>
-            <Link to="#form" smooth><li>Contatos</li></Link>
+            <Link to="#form" className="link-contact" smooth><li>Contatos</li></Link>
         </Ul>
     )
 }
