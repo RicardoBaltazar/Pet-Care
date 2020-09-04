@@ -22,9 +22,9 @@
 }
 
 .title .title-h1{
-    font-size: 8.9rem;
+    font-size: 150px;
     font-weight: bold;
-    line-height: 7rem;
+    line-height: 125px;
     margin-top: -40px;
 }
 
@@ -46,11 +46,11 @@
     }
 
     .img-title{
-        margin-right: 1rem;
+        margin-right: 16px;
     }
     
     .img-title img {        
-        width: 20rem;
+        width: 320px;
     }
 } 
 
@@ -59,8 +59,9 @@
         text-align: center;
         flex-direction: column;
         height: 100%;       
-        width: 100%; 
-        padding-bottom: 5rem;
+        width: 110%;
+        margin-left: -8px;
+        padding-bottom: 80px;
     }
     
     .title {
@@ -72,10 +73,10 @@
     }
 
     .title .title-h1{
-        font-size: 4rem;
+        font-size: 64px;
         font-weight: bold;
-        line-height: 7rem;
-        margin-top: -3rem;
+        line-height: 112px;
+        margin-top: -48px;
     }
 
     .title p {
@@ -87,39 +88,34 @@
     }
 
     .img-title img{
-        margin: 5rem 0 -7rem 1.5rem;
-        width: 15rem;
+        margin: 80px 0 -112px 24px;
+        width: 240px;
     }
 
     .home-title .title a {
-        width: 18rem;
+        width: 288px;
     }
 }
 
 @media(max-width: 376px){
+
+
     .title .title-h1{
-        font-size: 3rem;
+        font-size: 48px;
         font-weight: bold;
-        line-height: 7rem;
-        margin-top: -3rem;
+        line-height: 112px;
+        margin-top: -48px;
     }
 
     .title p {
-        margin: 0.5rem 0 25px 0;
+        margin: 8px 0 25px 0;
     }
 }
 
 @media(max-width: 321px){
-    .home-title{
-        text-align: center;
-        flex-direction: column;
-        height: 100%;       
-        width: 110%;
-        margin-left: -8px;
-        padding-bottom: 5rem;
-    }
+
 
     .home-title .title a {
-        width: 15rem;
+        width: 240px;
     }
 }

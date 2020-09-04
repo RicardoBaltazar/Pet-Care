@@ -10,14 +10,14 @@
 }
 
 h2 {
-    font-size: 3.8rem;
-    margin-top: 4rem;
+    font-size: 60px;
+    margin-top: 64px;
 }
 
 .div-about-infos{
     display: flex;
     align-items: center;
-    margin: 2rem;
+    margin: 32px;
 }
 
 .pageAbout div span {
@@ -37,7 +37,7 @@ h2 {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 2rem 5rem;
+    margin: 32px 80px;
 }
 
 @media(max-width: 769px){
@@ -45,11 +45,11 @@ h2 {
         height: 125%;
         width: 95%;
         padding: 20px 50px;
-        margin: 3rem 0;
+        margin: 48px 0;
     }
 
     h2 {
-        font-size: 2.8rem;
+        font-size: 44px;
     }
 
     .div-about-infos{
@@ -57,7 +57,7 @@ h2 {
     }
 
     .pageAbout div p {
-        font-size: 1.3rem;
+        font-size: 20px;
     }
 }
 
@@ -65,65 +65,65 @@ h2 {
     .pageAbout {
         height: 125%;
         width: 90%;
-        margin: 2rem auto;
+        margin: 32px auto;
     }
 
     h2 {
-        font-size: 1.2rem;
-        margin-top: 4rem;
+        font-size: 19px;
+        margin-top: 64px;
     }
 
     .div-about-infos{
         display: flex;
         align-items: center;
-        margin: 2rem;
+        margin: 32px;
     }
 
     .div-about-infos img{
-        width: 18rem;
+        width: 288px;
     }
     
     .pageAbout div span {
         width: 300px;
-        font-size: 1.2rem;
+        font-size: 19px;
         text-align: left;
     }
     
     .pageAbout div p {
         width: 300px;
         margin: 0px;
-        font-size: 1.1rem;
-        text-align: left;
+        font-size: 18px;
+        text-align: justify;
     }
 
     .text-about{
-        width: 15rem;
+        width: 240px;
         text-align: center;
         align-items: center;
         display: flex;
         flex-direction: column;
-        margin: 2rem 5rem;
+        margin: 32px 80px;
     }
 }
 
 @media(max-width: 376px){
     .pageAbout {
         height: 100%;
-        margin: 2rem auto;
+        margin: 32px auto;
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 32px;
         width: 100%;
     }
 
     .div-about-infos img{
-        width: 16rem;
+        width: 250px;
         margin: 0px;
     }
 
     .pageAbout div p {
-        width: 19rem;
+        width: 300px;
         margin: -0px;
     }
 }
@@ -131,22 +131,22 @@ h2 {
 @media(max-width: 321px){
     
     h2 {
-        font-size: 1.5rem;
+        font-size: 24px;
         width: auto;
     }
 
     .div-about-infos{
         width: 100%;
-        margin: 2rem;
+        margin: 32px;
     }
     
     .div-about-infos img{
-        width: 14rem;
+        width: 224px;
     }
     
     .pageAbout div span {
         width: 100%;
-        font-size: 1.3rem;
+        font-size: 20px;
         text-align: center;
     }
 
