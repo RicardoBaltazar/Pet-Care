@@ -41,7 +41,7 @@
 @media(max-width: 426px){
     .home-services{
         height: 100%;
-        margin-bottom: -96px;
+        margin-bottom: 0px;
     }
     .cards-services{
         flex-direction: column;   

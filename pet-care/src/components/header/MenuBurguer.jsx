@@ -46,6 +46,7 @@ const MenuBurger = () => {
         <div />
       <Menu open={open}/>
       </StyledBurger>
+      <Menu open={open}/>
     </>
   )
 }

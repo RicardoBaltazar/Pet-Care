@@ -80,7 +80,7 @@
     }
 
     .title p {
-        margin: 1rem 0 25px 0;
+        margin: 0px 0 25px 0;
     }
     
     .img-title{
@@ -108,7 +108,7 @@
     }
 
     .title p {
-        margin: 8px 0 25px 0;
+        margin: 0px 0 25px 0;
     }
 }
 
@@ -117,5 +117,9 @@
 
     .home-title .title a {
         width: 240px;
+    }
+
+    .title p {
+        margin: -10px 0 25px 0;
     }
 }
