@@ -3,7 +3,7 @@ import './brushing.css'
 import Button from '../../button/Button'
 import axios from 'axios'
 
-const url = 'http://localhost:8000/page-brushing'
+const url = 'https://api-pet-care.herokuapp.com/page-brushing'
 const img1 = require('../../../assets/img-page-brushing.png')
 
 export default class PageBrushing extends Component {

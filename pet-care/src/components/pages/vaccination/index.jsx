@@ -3,7 +3,7 @@ import './vaccination.css'
 import Button from '../../button/Button'
 import axios from 'axios'
 
-const url = 'http://localhost:8000/page-vaccination'
+const url = 'https://api-pet-care.herokuapp.com/page-vaccination'
 const img1 = require('../../../assets/img-page-vaccination.png')
 
 export default class PageVaccination extends Component {

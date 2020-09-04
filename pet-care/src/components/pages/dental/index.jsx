@@ -3,7 +3,7 @@ import './dental.css'
 import Button from '../../button/Button'
 import axios from 'axios'
 
-const url = 'http://localhost:8000/page-dental-care'
+const url = 'https://api-pet-care.herokuapp.com/page-dental-care'
 const img1 = require('../../../assets/img-page-dental.png')
 
 export default class PageDentalCare extends Component {

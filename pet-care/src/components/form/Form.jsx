@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './form.css'
 import axios from 'axios'
 
-const url = 'http://localhost:8000/message-contact'
+const url = 'https://api-pet-care.herokuapp.com/message-contact'
 
 export default class Form extends Component {
 

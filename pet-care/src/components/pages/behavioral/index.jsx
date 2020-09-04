@@ -3,7 +3,7 @@ import './behavioral.css'
 import Button from '../../button/Button'
 import axios from 'axios'
 
-const url = 'http://localhost:8000/page-behavioral'
+const url = 'https://api-pet-care.herokuapp.com/page-behavioral'
 const img1 = require('../../../assets/img-page-behavioral.png')
 
 export default class PageBehavioral extends Component {

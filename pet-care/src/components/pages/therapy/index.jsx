@@ -3,7 +3,7 @@ import './therapy.css'
 import Button from '../../button/Button'
 import axios from 'axios'
 
-const url = 'http://localhost:8000/page-pain-therapy'
+const url = 'https://api-pet-care.herokuapp.com/page-pain-therapy'
 const img1 = require('../../../assets/img-page-therapy.png')
 
 export default class PagePainTherapy extends Component {
