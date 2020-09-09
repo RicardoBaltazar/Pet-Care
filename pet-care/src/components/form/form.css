@@ -71,13 +71,20 @@ input:hover{
 form button {
     color: #fff;
     width: 50%;
+    transition: 0.3s;
+    outline: none;
 }
 
 .form-button:hover {
 background-color: rgb(206, 201, 201);
 }
 
-
+.message-confirm{
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+    margin: 10px;
+}
 
 @media(max-width: 426px){
     form {

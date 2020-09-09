@@ -13,8 +13,7 @@ export default class Form extends Component {
             email: '',
             topic: '',
             message: '',
-            confirm: '',
-            intervalMessageConfirm: 'false'
+            confirm: ''
         }
 
         this.handleSubmit = this.handleSubmit.bind(this)
@@ -76,11 +75,11 @@ export default class Form extends Component {
             confirm: 'Obrigado pelo envio!',
         })
 
-        setInterval(() =>{
+        setTimeout(() =>{
             this.setState({
                 confirm: ''
             })
-        }, 2000)
+        }, 3000)
 
     }
 
@@ -118,7 +117,7 @@ export default class Form extends Component {
                     <input name="" id="" placeholder='Deixe sua mensagem aqui...' className='input-message'
                         value={this.state.message} onChange={this.handleMessage} />
                     <button type="submit" className='form-button'>Enviar</button>
-                    <p>{this.state.confirm}</p>
+                    <p className='message-confirm'>{this.state.confirm}</p>
                 </form>
             </>
         )
