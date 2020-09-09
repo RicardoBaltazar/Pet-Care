@@ -14,7 +14,8 @@ export default class PageCheckup extends Component {
             name: '',
             contact: '',
             date: '',
-            hour: ''
+            hour: '',
+            confirm: ''
         }
 
         this.handleSubmit = this.handleSubmit.bind(this)
@@ -69,7 +70,16 @@ export default class PageCheckup extends Component {
         });
 
         event.preventDefault();
-        alert('cadastro Realizado!')
+
+        this.setState({
+            confirm: 'Obrigado pelo envio!',
+        })
+
+        setTimeout(() => {
+            this.setState({
+                confirm: ''
+            })
+        }, 3000)
     }
 
     render() {
@@ -105,6 +115,7 @@ export default class PageCheckup extends Component {
                     <input type="time" name="" id="" value={this.state.hour} onChange={this.handleHour}/>
 
                     <Button >Agendar</Button>
+        <p className='message-confirm-checkup'>{this.state.confirm}</p>
                 </form>
 
             </div>

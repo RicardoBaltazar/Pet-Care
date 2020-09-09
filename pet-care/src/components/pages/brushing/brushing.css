@@ -54,6 +54,13 @@
     margin: 1.5rem 0;
 }   
 
+.div-page-brushing form  .message-confirm-brushing{
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px;
+    color: #3a54b4;
+}
+
 @media(max-width: 769px){
     .div-page-brushing form {
         width: 75%;

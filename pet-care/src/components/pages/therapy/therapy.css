@@ -53,6 +53,12 @@
     margin: 0;
     margin: 1.5rem 0;
 }   
+.div-page-therapy form .message-confirm-therapy{
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px;
+    color: #3a54b4;
+}
 
 @media(max-width: 769px){
     .div-page-therapy form {

@@ -1,8 +1,9 @@
 .home-title{
     background-color: #fef7ed;
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     margin: 0 auto;
+    padding-top: 75px;
     display: flex;
     justify-content: center;
     align-items: center;

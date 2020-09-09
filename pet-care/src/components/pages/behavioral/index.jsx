@@ -8,13 +8,14 @@ const img1 = require('../../../assets/img-page-behavioral.png')
 
 export default class PageBehavioral extends Component {
 
-    constructor(props){
-        super(props) 
+    constructor(props) {
+        super(props)
         this.state = {
             name: '',
             contact: '',
             date: '',
-            hour: ''
+            hour: '',
+            confirm: ''
         }
 
         this.handleSubmit = this.handleSubmit.bind(this)
@@ -25,31 +26,31 @@ export default class PageBehavioral extends Component {
     }
 
 
-    handleName(event){
+    handleName(event) {
         this.setState({
             name: event.target.value
         })
     }
 
-    handleContact(event){
+    handleContact(event) {
         this.setState({
             contact: event.target.value
         })
     }
 
-    handleDate(event){
+    handleDate(event) {
         this.setState({
             date: event.target.value
         })
     }
 
-    handleHour(event){
+    handleHour(event) {
         this.setState({
             hour: event.target.value
         })
     }
 
-    handleSubmit(event){
+    handleSubmit(event) {
         const name = this.state.name
         const contact = this.state.contact
         const date = this.state.date
@@ -61,15 +62,24 @@ export default class PageBehavioral extends Component {
             date: date,
             hour: hour
         })
-        .then(function (response) {
-            console.log(response);
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
 
         event.preventDefault();
-        alert('cadastro Realizado!')
+
+        this.setState({
+            confirm: 'Obrigado pelo envio!',
+        })
+
+        setTimeout(() => {
+            this.setState({
+                confirm: ''
+            })
+        }, 3000)
     }
 
     render() {
@@ -85,26 +95,27 @@ export default class PageBehavioral extends Component {
                 Uma boa descrição coloca os leitores no clima e os
                 incentiva a agendar.
             </p>
-            <br/><br/>
+                <br /><br />
                 <p>Consulta Comportamental</p>
                 <p>1 h 30 minutos | R$ 200</p>
-                <br/><br/><br/>
+                <br /><br /><br />
                 <p>Agende Online</p>
                 <form action="" onSubmit={this.handleSubmit}>
 
                     <label htmlFor="">Nome</label>
-                    <input type="text" value={this.state.name} onChange={this.handleName}/>
+                    <input type="text" value={this.state.name} onChange={this.handleName} />
 
                     <label htmlFor="">Contato / telefone ou email</label>
-                    <input type="text" value={this.state.contact} onChange={this.handleContact}/>
+                    <input type="text" value={this.state.contact} onChange={this.handleContact} />
 
                     <label htmlFor="">Data</label>
-                    <input type="date" name="" id="" value={this.state.date} onChange={this.handleDate}/>
+                    <input type="date" name="" id="" value={this.state.date} onChange={this.handleDate} />
 
                     <label htmlFor="">Hora</label>
-                    <input type="time" name="" id="" value={this.state.hour} onChange={this.handleHour}/>
+                    <input type="time" name="" id="" value={this.state.hour} onChange={this.handleHour} />
 
                     <Button >Agendar</Button>
+                    <p className='message-confirm-behavioral'>{this.state.confirm}</p>
                 </form>
 
             </div>
