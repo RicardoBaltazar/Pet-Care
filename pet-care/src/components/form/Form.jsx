@@ -12,7 +12,9 @@ export default class Form extends Component {
             name: '',
             email: '',
             topic: '',
-            message: ''
+            message: '',
+            confirm: '',
+            intervalMessageConfirm: 'false'
         }
 
         this.handleSubmit = this.handleSubmit.bind(this)
@@ -48,13 +50,11 @@ export default class Form extends Component {
 
 
 
-
     handleSubmit(event) {
         const name = this.state.name
         const email = this.state.email
         const topic = this.state.topic
         const message = this.state.message
-        const confirm = this.state.confirm
 
         axios.post(url, {
             Name: name,
@@ -70,7 +70,18 @@ export default class Form extends Component {
             });
 
         event.preventDefault();
-        alert('Obrigado pelo envio')
+        //alert('Obrigado pelo envio')
+
+        this.setState({
+            confirm: 'Obrigado pelo envio!',
+        })
+
+        setInterval(() =>{
+            this.setState({
+                confirm: ''
+            })
+        }, 2000)
+
     }
 
     render() {
@@ -107,6 +118,7 @@ export default class Form extends Component {
                     <input name="" id="" placeholder='Deixe sua mensagem aqui...' className='input-message'
                         value={this.state.message} onChange={this.handleMessage} />
                     <button type="submit" className='form-button'>Enviar</button>
+                    <p>{this.state.confirm}</p>
                 </form>
             </>
         )
