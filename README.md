@@ -4,8 +4,10 @@
  • <a href="#sobre">Sobre</a> •
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#backend">Backend</a> • 
- <a href="#licenc-a">Licença</a>  
+ <a href="#license">Licença</a>  
 </p>  
+  
+Acesse o projeto https://pet-care.vercel.app/  
   
 ![pet-care-site](https://user-images.githubusercontent.com/56805229/92775212-916fca80-f374-11ea-9ad3-23749e807abc.gif)  
 ![pet-care-mobile](https://user-images.githubusercontent.com/56805229/92775308-a64c5e00-f374-11ea-836f-70fc08fd76c2.gif)  
@@ -14,6 +16,7 @@
 Pet Care é um site de clínica veterinária, é um projeto fictício criado por mim com objetivo de aprendizado em desenvolvimento web.  
 O projeto foi feito utilizando a biblioteca React, tem layout responsivo, é conectado com um backend feito com json server.  
 Os usuários podem realizar agendamentos dos serviços da clínica, também podem enviar informações de contato e mensagens para a clínica.  
+  
 
 ### Tecnologias
 
@@ -39,7 +42,7 @@ Agendamento de serviço terapia - https://api-pet-care.herokuapp.com/page-pain-t
 Agendamento de serviço Dental - https://api-pet-care.herokuapp.com/page-dental-care
 
   
-### Licença  
+### License  
 ![](https://img.shields.io/github/license/RicardoBaltazar/Pet-Care)  
 
 
