@@ -18,7 +18,7 @@ export default function HomeServices() {
         um de seus serviços. Você pode trocar o título para o serviço que você 
         presta e descrevê-lo. Sinta-se à vontade para mudar a imagem.'
                     />
-                    <a href="#/services"><Button>RESERVE JÁ</Button></a>
+                    <a href="/services"><Button>RESERVE JÁ</Button></a>
                 </div>
 
                 <div className='card-services'>
@@ -27,7 +27,7 @@ export default function HomeServices() {
         um de seus serviços. Você pode trocar o título para o serviço que você 
         presta e descrevê-lo. Sinta-se à vontade para mudar a imagem.'
                     />
-                    <a href="#/services"><Button>RESERVE JÁ</Button></a>
+                    <a href="/services"><Button>RESERVE JÁ</Button></a>
                 </div>
 
                 <div className='card-services'>
@@ -36,7 +36,7 @@ export default function HomeServices() {
         um de seus serviços. Você pode trocar o título para o serviço que você 
         presta e descrevê-lo. Sinta-se à vontade para mudar a imagem.'
                     />
-                    <a href="#/services"><Button>RESERVE JÁ</Button></a>
+                    <a href="/services"><Button>RESERVE JÁ</Button></a>
                 </div>
             </div>
         </div>

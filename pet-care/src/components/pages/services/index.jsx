@@ -26,7 +26,7 @@ export default function PageServices() {
                         time="35 min"
                         value='R$35'
                     />
-                    <a href="#/brushing"><Button >Agendar Já</Button></a>
+                    <a href="/brushing"><Button >Agendar Já</Button></a>
                 </div>
 
                 <div className='div-cards-services'>
@@ -37,7 +37,7 @@ export default function PageServices() {
                         time="15 min"
                         value='R$60'
                     />
-                    <a href="#/vaccination"><Button >Agendar Já</Button></a>
+                    <a href="/vaccination"><Button >Agendar Já</Button></a>
                 </div>
 
                 <div className='div-cards-services'>
@@ -48,7 +48,7 @@ export default function PageServices() {
                         time="1 h 30 min"
                         value='R$200'
                     />
-                    <a href="#/behavioral"><Button >Agendar Já</Button></a>
+                    <a href="/behavioral"><Button >Agendar Já</Button></a>
                 </div >
             </section>
 
@@ -61,7 +61,7 @@ export default function PageServices() {
                         time="30 min"
                         value='R$100'
                     />
-                    <a href="#/checkup"><Button >Agendar Já</Button></a>
+                    <a href="/checkup"><Button >Agendar Já</Button></a>
                 </div>
 
                 <div className='div-cards-services'>
@@ -72,7 +72,7 @@ export default function PageServices() {
                         time="45 min"
                         value='R$45'
                     />
-                    <a href="#/pain-therapy"><Button >Agendar Já</Button></a>
+                    <a href="/pain-therapy"><Button >Agendar Já</Button></a>
                 </div>
 
                 <div className='div-cards-services'>
@@ -83,7 +83,7 @@ export default function PageServices() {
                         time="20 min"
                         value='R$25'
                     />
-                    <a href="#/dental"><Button >Agendar Já</Button></a>
+                    <a href="/dental"><Button >Agendar Já</Button></a>
                 </div>
             </section>
         </div>

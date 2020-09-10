@@ -26,6 +26,9 @@ a{
   text-decoration: none;
 }
 
+button {
+  outline: none;
+}
 
 
 @media(max-width: 426px){

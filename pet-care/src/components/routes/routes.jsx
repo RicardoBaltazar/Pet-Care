@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { HashRouter, Route, Redirect } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 
 import PageHome from '../pages/home/pageHome'
 import PageAbout from '../pages/about/index'
@@ -18,22 +18,23 @@ import Menu from '../../components/header/Header'
 export default function Routes() {
     return (
 
-        <HashRouter>
-            <ScrollToTop />
+        <BrowserRouter>
+            <Switch>
 
-            <Route exact path='/' component={PageHome} />
-            <Route exact path='/' component={Menu} />
-            <Route exact path='/about' component={PageAbout} />
-            <Route exact path='/services' component={PageServices} />
-            <Route exact path='/brushing' component={PageBrushing} />
-            <Route exact path='/vaccination' component={PageVaccination} />
-            <Route exact path='/behavioral' component={PageBehavioral} />
-            <Route exact path='/checkup' component={PageCheckup} />
-            <Route exact path='/pain-therapy' component={PagePainTherapy} />
-            <Route exact path='/dental' component={PageDentalCare} />
+                <Route exact path='/' component={PageHome} />
+                <Route exact path='/' component={Menu} />
+                <Route exact path='/about' component={PageAbout} />
+                <Route exact path='/services' component={PageServices} />
+                <Route exact path='/brushing' component={PageBrushing} />
+                <Route exact path='/vaccination' component={PageVaccination} />
+                <Route exact path='/behavioral' component={PageBehavioral} />
+                <Route exact path='/checkup' component={PageCheckup} />
+                <Route exact path='/pain-therapy' component={PagePainTherapy} />
+                <Route exact path='/dental' component={PageDentalCare} />
 
-            <Redirect from='' to='/' />
-        </HashRouter>
+                <Redirect from='' to='/' />
+            </Switch>
+        </BrowserRouter>
 
         /*
         <BrowserRouter>

@@ -10,7 +10,7 @@ export default function homeTitle() {
             <div className='title'>
                 <h1 className='title-h1'>Pet Care</h1>
                 <p>Veterinário em Domicílio</p>
-                <a href="#/services"><Button>AGENDE UMA VISITA</Button></a>
+                <a href="/services"><Button>AGENDE UMA VISITA</Button></a>
             </div>
             <div className='img-title'>
                 <img src={imgTitle} alt="Cachorrinho" />
