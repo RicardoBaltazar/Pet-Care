@@ -18,7 +18,7 @@ export default function HomeAbout() {
                 duas vezes sobre mim e você poderá adicionar
                 o seu próprio conteúdo e trocar fontes.
                 Sou um ótimo lugar para você contar sua história</p>
-                <a href="#/about"><Button>LEIA MAIS</Button></a>
+                <a href="/about"><Button>LEIA MAIS</Button></a>
             </div>
         </div>
     )
