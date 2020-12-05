@@ -28,18 +28,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [ReactJs](https://pt-br.reactjs.org/docs/getting-started.html)  
 - [Json Server](https://www.npmjs.com/package/json-server)  
   
-### Backend  
-Este projeto é conectado a uma api criada com json server para guardar os dados cadastrados.  
-Repositório com o código do backend https://github.com/RicardoBaltazar/pet-care-backend  
-  
-Rota principal - https://api-pet-care.herokuapp.com/  
-Envio de menssagens - https://api-pet-care.herokuapp.com/message-contact  
-Agendamento de serviço escovação - https://api-pet-care.herokuapp.com/page-brushing  
-Agendamento de serviço vacinação - https://api-pet-care.herokuapp.com/page-vaccination  
-Agendamento de serviço Comportamental - https://api-pet-care.herokuapp.com/page-behavioral  
-Agendamento de serviço checkup - https://api-pet-care.herokuapp.com/page-checkup  
-Agendamento de serviço terapia - https://api-pet-care.herokuapp.com/page-pain-therapy  
-Agendamento de serviço Dental - https://api-pet-care.herokuapp.com/page-dental-care
 
   
 ### License  
