@@ -13,8 +13,8 @@ Acesse o projeto https://pet-care.vercel.app/
 ![pet-care-mobile](https://user-images.githubusercontent.com/56805229/92775308-a64c5e00-f374-11ea-836f-70fc08fd76c2.gif)  
   
 ### Sobre  
-Pet Care é um site de clínica veterinária, é um projeto fictício criado por mim com objetivo de aprendizado em desenvolvimento web.  
-O projeto foi feito utilizando a biblioteca React, tem layout responsivo, é conectado com um backend feito com json server.  
+Pet Care é um site de clínica veterinária, é um projeto fictício criado por mim com objetivo de aprendizado em desenvolvimento web Frontend.  
+O projeto foi feito utilizando a biblioteca React, tem layout responsivo..  
 Os usuários podem realizar agendamentos dos serviços da clínica, também podem enviar informações de contato e mensagens para a clínica.  
   
 
